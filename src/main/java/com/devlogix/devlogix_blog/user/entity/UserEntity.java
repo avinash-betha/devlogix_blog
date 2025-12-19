@@ -57,7 +57,6 @@ public class UserEntity {
         this.passwordHash = passwordHash;
         this.enabled = true;
         this.emailVerified = false;
-        this.createdAt = LocalDateTime.now();
     }
 
     @PrePersist
